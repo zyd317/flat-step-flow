@@ -1,0 +1,58 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended",
+        "tslint-react"
+    ],
+    "jsRules": {},
+    "rules": {
+        "indent": [true, "spaces", 4],
+        "quotemark": [
+            true,
+            "single",
+            "jsx-double"
+        ],
+        "trailing-comma":[true, {"multiline": "always", "singleline": "never"}],
+        "object-literal-sort-keys": false,
+        "interface-name": false,
+        "space-before-function-paren": [
+            true,
+            {
+                "anonymous": "always",
+                "named": "always",
+                "asyncArrow": "always",
+                "method": "never",
+                "constructor": "never"
+            }
+        ],
+        "array-type": [
+            true,
+            "array"
+        ],
+        "arrow-parens": [
+            true,
+            "ban-single-arg-parens"
+        ],
+        "no-console": false,
+        "jsx-no-lambda": false,
+        "jsx-no-multiline-js": false,
+        "import-sources-order": false,
+        "no-namespace": false,
+        "jsx-wrap-multiline": false,
+        "eofline": false,
+        "jsx-boolean-value": false,
+        "one-variable-per-declaration": false, // 不允许在同一声明语句中使用多个变量定义
+        "no-unused-expression": false,
+        "no-shadowed-variable": false, // 不允许隐藏变量声明
+        "no-empty": false
+    },
+    "rulesDirectory": [],
+    "linterOptions": {
+        "exclude": [
+            "node_modules/**",
+            "dist/*",
+            "lib/*",
+            "*.json"
+        ]
+    }
+}

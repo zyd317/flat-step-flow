@@ -1,0 +1,36 @@
+{
+  "name": "flat-step-flow",
+  "version": "1.0.0",
+  "description": "扁平化步骤流程控制",
+  "main": "lib/index.js",
+  "typings": "index.d.ts",
+  "scripts": {
+    "publish": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zyd317/flat-step-flow.git"
+  },
+  "keywords": [
+    "step",
+    "flow"
+  ],
+  "author": "zhaoyidi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zyd317/flat-step-flow/issues"
+  },
+  "homepage": "https://github.com/zyd317/flat-step-flow#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-typescript": "^7.10.1",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.1.0",
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.5",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
