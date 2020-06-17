@@ -9,7 +9,7 @@ module.exports = (env, argv) => {
             path: path.join(__dirname, 'lib'),
             filename: '[name].js',
             publicPath: '/lib/',
-            libraryTarget: 'commonjs',
+            libraryTarget: 'commonjs2',
         },
         resolve: {
             extensions: [".js", ".ts"],
