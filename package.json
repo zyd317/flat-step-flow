@@ -1,6 +1,6 @@
 {
   "name": "flat-step-flow",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "扁平化步骤流程控制",
   "main": "lib/index.js",
   "typings": "index.d.ts",
